@@ -66,8 +66,14 @@ function setPageLogo() {
 	document.getElementsByTagName("head")[0].appendChild(link);
 }
 
+
+
 let navBarHTML =
 	`
+  <link href="{{ pathto('_static/css/navigationStyle.css', 1) }}" rel="stylesheet" />
+
+	{%- block extrabody %}
+
   <div class="nav_fn">
     <ul>
         <!-- <li class="navLogo"><a href="/index.html"></a></li> -->
