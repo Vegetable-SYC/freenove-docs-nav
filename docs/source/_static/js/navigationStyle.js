@@ -70,7 +70,7 @@ function setPageLogo() {
 
 let navBarHTML =
 	`
-  <link href="{{ pathto('_static/css/navigationStyle.css', 1) }}" rel="stylesheet" />
+  <link href="{{ pathto('css/navigationStyle.css', 1) }}" rel="stylesheet" />
 
 	{%- block extrabody %}
 
