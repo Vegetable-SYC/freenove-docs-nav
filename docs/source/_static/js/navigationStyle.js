@@ -72,8 +72,6 @@ let navBarHTML =
 	`
   <link href="{{ pathto('css/navigationStyle.css', 1) }}" rel="stylesheet" />
 
-	{%- block extrabody %}
-
   <div class="nav_fn">
     <ul>
         <!-- <li class="navLogo"><a href="/index.html"></a></li> -->
